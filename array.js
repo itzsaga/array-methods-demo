@@ -14,10 +14,6 @@ const modifiedItems = items.map(item => {
 
 const itemsUl = document.getElementById("items");
 
-for (let i = 0; i < item.length - 2; i++) {
-  
-}
-
 modifiedItems.forEach(function(item) {
   const itemLi = document.createElement("li");
   const liText = document.createTextNode(`${item.name}: ${item.price}`);
